@@ -92,7 +92,7 @@ h3 {
   font-weight: bold;
   text-align: center;
   text-decoration: underline;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 h4 {
@@ -108,7 +108,7 @@ section {
 }
 
 footer {
-  background-color: #fcb1b1;
+  background-color: #c40c57;
   color: #fff;
   text-align: center;
 }
@@ -121,7 +121,7 @@ footer p {
 .img-review {
   float: right;
   height: auto;
-  position: center;
+  position: relative;
   width: 100%;
 }
 
@@ -130,15 +130,15 @@ footer p {
 }
 
 .location {
-  background-color:
+  background-color: #fcb1b1;
 }
 
 .reviews {
-  background-color:
+  background-color: #fcb1b1;
 }
 
 img {
-  width: 100%
+  width: 100%;
 }
 
 .menu-img {
@@ -156,4 +156,15 @@ img {
 .img-flex {
   display: block;
   width: 100%;
+}
+
+.chocolate-content {
+  position: absolute;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  max-width: 50em;
+  bottom: -10em;
+  left: 50%;
+  text-align: center;
+  font-size: 1rem;
 }
