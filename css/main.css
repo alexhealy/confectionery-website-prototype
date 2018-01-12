@@ -131,6 +131,21 @@ footer p {
   font-size: 1.5em;
 }
 
+.kristina {
+  text-align: left;
+}
+
+.menu p {
+  text-align: center;
+}
+
+.p-menu {
+  margin-top: 0;
+  margin-bottom: 1.3em;
+  font-weight: normal;
+  font-size: 1.4em;
+}
+
 .menu {
   background-color: #fcb1b1;
 }
@@ -198,4 +213,15 @@ nav:hover {
 
 .btn:hover {
   background-color: #ef7575;
+}
+
+@media only screen and (min-width: 25em) {
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  .loc-img {
+    width: 100%;
+  }
 }
