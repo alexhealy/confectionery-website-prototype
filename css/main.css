@@ -178,7 +178,12 @@ nav:hover {
 }
 
 .btn {
-  background-color: #fcb1b1;
+  background-color: #c40c57;
   display: inline-block;
   color: #fff;
+  border-radius: 8px;
+  border-width: 2px;
+  padding: .4em .75em .4em;
+  border-style: 
+
 }
