@@ -216,12 +216,41 @@ nav:hover {
 }
 
 @media only screen and (min-width: 25em) {
+
   html {
-    font-size: 120%;
-    line-height: 1.5;
+    font-size: 100%;
+    line-height: 1.3;
+  }
+
+  h1,
+  p {
+    margin: 0 0 1.3rem;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  h1,
+  p {
+    margin: 0 0 1.4rem;
+  }
+
+  .chocolate-content {
+    bottom: -40em;
   }
 
   .loc-img {
     width: 100%;
   }
-}
+
+  .img-flex {
+    width: 100%;
+  }
+
+  .menu-img
