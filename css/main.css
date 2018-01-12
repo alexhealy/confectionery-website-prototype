@@ -204,7 +204,7 @@ nav:hover {
   color: #fff;
   border-radius: 8px;
   border-width: 2px;
-  padding: .4em .75em .4em;
+  padding: .4em .75em;
   border-style: solid;
   text-align: center;
   border-color: #ef7575;
@@ -288,5 +288,24 @@ nav:hover {
     display: inline-block;
   }
 
+  .chocolate-content {
+    bottom: -75em;
   }
+
+  h1, p {
+    margin: 0 0 1.5rem;
+  }
+
+  .img-flex {
+    width: 100%;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
 }
