@@ -125,6 +125,12 @@ footer p {
   width: 100%;
 }
 
+.fig-review {
+  text-align: left;
+  color: #fff;
+  font-size: 1.5em;
+}
+
 .menu {
   background-color: #fcb1b1;
 }
@@ -184,6 +190,12 @@ nav:hover {
   border-radius: 8px;
   border-width: 2px;
   padding: .4em .75em .4em;
-  border-style: 
+  border-style: solid;
+  text-align: center;
+  border-color: #ef7575;
+  text-decoration: none;
+}
 
+.btn:hover {
+  background-color: #ef7575;
 }
